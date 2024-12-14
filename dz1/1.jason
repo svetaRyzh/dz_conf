@@ -1,0 +1,31 @@
+/* A C-style comment. */
+# A Python-style comment.
+// Определяем базовые параметры
+local groupPrefix = "ИКБО-";
+local year = "20";
+local groupCount = 24;
+
+// Генерация групп
+local groups = [groupPrefix + x + "-" + year for x in std.range(1, groupCount)];
+
+// Определяем студента
+local createStudent(name, age, group) = {
+    name: name,
+    age: age,
+    group: group,
+};
+
+// Список студентов
+local students = [
+    createStudent("Иванов И.И.", 19, "ИКБО-4-20"),
+    createStudent("Петров П.П.", 18, "ИКБО-5-20"),
+    createStudent("Сидоров С.С.", 18, "ИКБО-5-20"),
+    createStudent("Алексеев А.А.", 20, "ИКБО-3-20")  // Добавленный студент
+];
+
+// Компилируем финальный JSON
+{
+    groups: groups,
+    students: students,
+    subject: "Конфигурационное управление",
+}
