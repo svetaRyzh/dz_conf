@@ -1,0 +1,21 @@
+{
+  "name": "conf_upr222",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "mock-fs": "^5.4.1",
+    "sinon": "^19.0.2"
+  }
+}

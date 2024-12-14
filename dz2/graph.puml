@@ -1,0 +1,24 @@
+@startuml
+digraph G {
+  "dependency-visualizer" -> "yargs";
+  "yargs" -> "cliui";
+  "yargs" -> "escalade";
+  "yargs" -> "get-caller-file";
+  "yargs" -> "require-directory";
+  "yargs" -> "string-width";
+  "yargs" -> "y18n";
+  "yargs" -> "yargs-parser";
+  "cliui" -> "string-width";
+  "cliui" -> "strip-ansi";
+  "cliui" -> "wrap-ansi";
+  "string-width" -> "emoji-regex";
+  "string-width" -> "is-fullwidth-code-point";
+  "string-width" -> "strip-ansi";
+  "strip-ansi" -> "ansi-regex";
+  "wrap-ansi" -> "ansi-styles";
+  "wrap-ansi" -> "string-width";
+  "wrap-ansi" -> "strip-ansi";
+  "ansi-styles" -> "color-convert";
+  "color-convert" -> "color-name";
+}
+@enduml
