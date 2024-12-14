@@ -1,0 +1,10 @@
+LOAD_CONST 0 10 42      
+LOAD_CONST 0 11 15      
+LOAD_MEM 0 12 10        
+ADD 0 13 10             
+BITWISE_OR 0 14 10 11   
+XOR 0 15 10              
+STORE_MEM 0 16 10 11    
+LOAD_CONST 0 17 1       
+ADD 0 18 17              
+BITWISE_OR 0 19 17 16 

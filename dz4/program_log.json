@@ -1,0 +1,95 @@
+[
+    {
+        "command": "LOAD_CONST",
+        "fields": {
+            "A": 0,
+            "B": 10,
+            "C": 42
+        },
+        "binary": "000002800a80000000"
+    },
+    {
+        "command": "LOAD_CONST",
+        "fields": {
+            "A": 0,
+            "B": 11,
+            "C": 15
+        },
+        "binary": "000002c003c0000000"
+    },
+    {
+        "command": "LOAD_MEM",
+        "fields": {
+            "A": 0,
+            "B": 12,
+            "C": 10
+        },
+        "binary": "000003000280000000"
+    },
+    {
+        "command": "ADD",
+        "fields": {
+            "A": 0,
+            "B": 13,
+            "C": 10
+        },
+        "binary": "000003400280000000"
+    },
+    {
+        "command": "BITWISE_OR",
+        "fields": {
+            "A": 0,
+            "B": 14,
+            "C": 10,
+            "D": 11
+        },
+        "binary": "000003800280002c00"
+    },
+    {
+        "command": "XOR",
+        "fields": {
+            "A": 0,
+            "B": 15,
+            "C": 10
+        },
+        "binary": "000003c00280000000"
+    },
+    {
+        "command": "STORE_MEM",
+        "fields": {
+            "A": 0,
+            "B": 16,
+            "C": 10,
+            "D": 11
+        },
+        "binary": "000004000280002c00"
+    },
+    {
+        "command": "LOAD_CONST",
+        "fields": {
+            "A": 0,
+            "B": 17,
+            "C": 1
+        },
+        "binary": "000004400040000000"
+    },
+    {
+        "command": "ADD",
+        "fields": {
+            "A": 0,
+            "B": 18,
+            "C": 17
+        },
+        "binary": "000004800440000000"
+    },
+    {
+        "command": "BITWISE_OR",
+        "fields": {
+            "A": 0,
+            "B": 19,
+            "C": 17,
+            "D": 16
+        },
+        "binary": "000004c00440004000"
+    }
+]
