@@ -1,0 +1,10 @@
+(* Конфигурация приложения *)
+APP_CONFIG := table([
+  TITLE = @"My Application",
+  VERSION = 1.0,
+  SETTINGS = table([
+    THEME = @"dark",
+    ENABLE_NOTIFICATIONS = true,
+    LANGUAGES = {@"en", @"ru", @"es"}
+  ])
+])

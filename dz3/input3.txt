@@ -1,0 +1,13 @@
+(* Конфигурация устройства *)
+DEVICE_CONFIG := table([
+  NAME = @"Smartphone",
+  DISPLAY = table([
+    WIDTH = 1080,
+    HEIGHT = 1920
+  ]),
+  CAMERA = table([
+    RESOLUTION = @"12MP",
+    ZOOM = 5
+  ]),
+  FEATURES = {@"Bluetooth", @"Wi-Fi", @"GPS"}
+])

@@ -1,0 +1,9 @@
+(* Конфигурация игры *)
+GAME_SETTINGS := table([
+  TITLE = @"Epic Adventure",
+  RESOLUTION = table([
+    WIDTH = 1920,
+    HEIGHT = 1080
+  ]),
+  DIFFICULTY = !(2 1 +)
+])
