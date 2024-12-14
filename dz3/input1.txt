@@ -1,0 +1,6 @@
+DB_NAME := @"my_database"
+DB_CONFIG := table([
+  HOST = @"localhost",
+  PORT = 5432,
+  USERS = {@"admin", @"guest", @"readonly"}
+])
